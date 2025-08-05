@@ -5,14 +5,14 @@ public class ed {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         
-        if(a%2==0)
+        if(a>0)
         {
-            System.out.println("Even number");
+            System.out.println("positive number");
             
         }
         else
         {
-            System.out.println("Odd number");
+            System.out.println("negative number");
         
         }
         
